@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <script src="https://kit.fontawesome.com/d77b7a8887.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="lg:flex">
+
+    <div class="flex justify-center absolute top w-full mt-16 lg:mt-[140px] lg:-ml-[230px]">
+      <div class="w-[130px] h-[30px] rounded-full absolute top z-10 bg-white mt-[405px] lg:mt-0"></div>
+      <div class="rounded-[30px]  h-[500px] w-[250px] p-[10px] bg-white shadow-2xl mt-[405px] lg:mt-0">
+        <div
+          class="rounded-t-[20px] bg-gradient-to-r from-gradientViolet to-gradientMagenta w-[230px] h-16 flex items-end">
+          <div class="h-11 w-[230px] flex items-center justify-between px-3">
+            <div class="flex items-center">
+              <i class="fa-solid fa-chevron-left text-white text-xs"></i>
+              <img class="w-6 h-6 rounded-full border border-white ml-2" src="./images/avatar.jpg" alt="image avatar">
+              <div class="h-8 ml-2">
+                <h1 class="text-white text-[11px]">Samuel Green</h1>
+                <p class="text-white text-[8px] opacity-50"> Available to Walk</p>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-ellipsis-vertical text-white text-[10px] opacity-50"></i>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-[415px] bg-lightGrayViolet rounded-b-[20px]">
+          <div class="w-[66%] p-3 flex flex-col gap-2">
+            <div class="bg-veryLightMagenta rounded-lg w-full h-8 bg-opacity-10 p-[6px] rounded-bl-sm">
+              <p class="text-[8px] leading-[10px] text-moderateViolet ">That sounds great. I’d be happy to discuss more.
+              </p>
+            </div>
+            <div class="bg-veryLightMagenta rounded-lg w-full h-8 bg-opacity-10 p-[6px]">
+              <p class="text-[8px] leading-[10px] text-moderateViolet ">Could you send over some pictures of your dog,
+                please?</p>
+            </div>
+          </div>
+          <div class=" flex flex-col items-end gap-2">
+            <ul class="flex h-10 justify-end gap-2 mr-2 mt-2">
+              <li><img class="w-10 h-10 rounded-lg" src="./images/dog-image-1.jpg" alt=""></li>
+              <li><img class="w-10 h-10 rounded-lg" src="./images/dog-image-2.jpg" alt=""></li>
+              <li><img class="w-10 h-10 rounded-lg" src="./images/dog-image-3.jpg" alt=""></li>
+            </ul>
+
+            <div class="bg-white rounded-lg h-8 p-[6px] w-[55%] mr-2">
+              <p class="text-[8px] leading-[10px] text-veryDarkBlue opacity-75">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+            </div>
+
+            <div class="bg-white rounded-lg w-[35%] h-6 p-[6px] mr-2 flex items-center">
+              <p class="text-[8px] leading-[10px] text-veryDarkBlue  opacity-75">
+                Can you make it?
+              </p>
+            </div>
+          </div>
+          <div class="w-[66%] p-3 flex flex-col gap-2">
+            <div class="bg-veryLightMagenta rounded-lg w-full h-10 bg-opacity-10 p-[6px]">
+              <p class="text-[8px] leading-[10px] text-moderateViolet ">She looks so happy! The time we discussed works.
+                How long shall I take her out for?
+              </p>
+            </div>
+
+          </div>
+          <div class=" flex flex-col w-[70%] gap-2 pl-2">
+            <div
+              class="bg-gradient-to-l from-gradientViolet to-gradientMagenta rounded-lg w-full h-8 bg-opacity-10 p-2 flex items-center justify-between pr-4">
+              <div class="flex gap-2">
+                <div class="w-3 h-3 rounded-full border opacity-50">
+                </div>
+                <p class="text-[8px] text-white opacity-75">30 minutes walk</p>
+              </div>
+              <p class="text-white text-xs font-bold">$29</p>
+            </div>
+
+            <div
+              class="bg-gradient-to-l from-gradientViolet to-gradientMagenta rounded-lg w-full h-8 bg-opacity-10 p-2 flex items-center justify-between pr-4">
+              <div class="flex gap-2">
+                <div class="w-3 h-3 rounded-full border opacity-50">
+                </div>
+                <p class="text-[8px] text-white opacity-75">1 hour walk</p>
+              </div>
+              <p class="text-white text-xs font-bold">$49</p>
+            </div>
+
+
+          </div>
+          <div class="w-full h-10 px-2">
+            <div class="h-8 w-full bg-white rounded-full mt-5 flex justify-between items-center pr-1 pl-4">
+              <p class="text-[10px] opacity-35">Type a message…</p>
+              <div class="h-6 w-6 rounded-full bg-veryDarkBlue flex justify-center items-center font-bold">
+                <i class="fa-solid fa-chevron-right text-white text-[11px]"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div
+      class="h-[880px] w-[400px]  bg-gradient-to-t from-gradientViolet to-gradientMagenta to-90% rounded-b-full -ml-[215px]  lg:-ml-[125px] lg:h-[1080px] lg:w-[700px] -mt-[400px]">
+    </div>
+
+    <div class="mt-[150px] flex flex-col items-center gap-5 px-8 pb-12 lg:ml-50 lg:pl-[300px] lg:items-start lg:mt-72">
+      <h1 class="text-[40px] text-veryDarkDesaturatedViolet font-semibold">Simple booking</h1>
+      <p class=" text-center lg:text-left leading-7 opacity-40 lg:w-[680px] lg:pr-[225px]">Stay in touch with our dog walkers through the chat
+        interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+
+    </div>
+
+
+  </div>
+
+
+  <div class="attribution mt-20">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+
+</html>
